@@ -2,8 +2,10 @@
 using namespace std;
 
 int main () {
-    int a;
+    int a,b;
     cout << "Enter a number ";
     cin >> a;
-    cout << "Your no. = " << a;
+    cout << "Enter a number ";
+    cin >> b;
+    cout << "Your no. = " << a+b;
 }
